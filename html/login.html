@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <title>Login</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js"></script>
+
 </head>
 <body>
-    <div>Login Page</div>
-    <form id="myform">
+    
+    <section class="container">
+       
+        <form >
+            <h1>Login Form</h1>
+            <div>
+                <input type="text" name="" id="username" placeholder="Enter Username">
+            </div>
+            <div>
+                <input type="password" name="" id="password" placeholder="Enter Password">
+            </div>
+            <div>
+                <input type="button" name="" id="button" value="Login">
+            </div>
+            <div id="message">
 
-        <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Username" />
-        
-        <label for="password">Password</label>
-        <input type="text" id="password" placeholder="Password" />
-        
-        <input type="submit" id="login" value="Login"/>
-        
+            </div>
         </form>
+    </section>
 </body>
 </html>
